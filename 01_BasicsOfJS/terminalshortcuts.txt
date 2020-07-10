@@ -1,0 +1,10 @@
+# Print the full path to the current working directory
+pwd
+# Clear the terminal output
+clear
+# List the contents of the working directory
+ls
+# Change directories to home
+cd ~
+# Navigate up a directory then into a nested directory
+cd ../Downloads
