@@ -1,4 +1,4 @@
-console.log('To priint different things')
+console.log('To print different things')
 let myAccount1 = {
     name: 'Andrew',
     expense: 0,

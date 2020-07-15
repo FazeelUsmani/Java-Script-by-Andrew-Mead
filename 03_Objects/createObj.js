@@ -9,3 +9,4 @@ console.log(`${myBook.title} by ${myBook.author} having a price ${myBook.rate}`)
 
 myBook.title = '0 2 1'
 console.log(`${myBook.title} by ${myBook.author} having a price ${myBook.rate}`)
+console.log(myBook)

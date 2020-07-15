@@ -26,7 +26,7 @@ console.log(score)   // 5
 console.log('Leaked Globals')
 let getScore1 = function() {
     if (1 < 2){
-        score = 3
+        score = 989
     }
     console.log(score)
 }
@@ -45,4 +45,4 @@ let getScore2 = function() {
 }
 
 getScore2()
-console.log(runs)
+// console.log(runs) // Error because of leaked globals
